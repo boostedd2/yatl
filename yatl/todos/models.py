@@ -13,5 +13,7 @@ class Todo(models.Model):
 
     expired = models.BooleanField(default=False)
 
+    completed = models.BooleanField(default=False)
+
     def __str__(self):
         return self.title
