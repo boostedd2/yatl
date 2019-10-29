@@ -1,23 +1,23 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+yatl-react/node_modules
+yatl-react/.pnp
+yatl-react/.pnp.js
 
 # testing
-/coverage
+yatl-react/coverage
 
 # production
-/build
+yatl-react/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+yatl-react/.DS_Store
+yatl-react/.env.local
+yatl-react/.env.development.local
+yatl-react/.env.test.local
+yatl-react/.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+yatl-react/npm-debug.log*
+yatl-react/yarn-debug.log*
+yatl-react/yarn-error.log*
